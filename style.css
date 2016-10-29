@@ -6,6 +6,96 @@ main {
     padding: 5px;
 }
 
+#fName {
+    width: 120px;
+    max-width: 35ch;
+    text-align: right;
+    display: inline-block;
+}
+
+#lName {
+    width: 120px;
+    max-width: 35ch;
+    text-align: right;
+    display: inline-block;
+}
+
+#email {
+    width: 120px;
+    max-width: 35ch;
+    text-align: right;
+    display: inline-block;
+}
+
+#comments {
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+}
+
+#text {
+    text-align: left;
+    height: 5em;
+    max-width: 34ch;
+}
+
+#submit {
+    margin-left: 120px;
+}
+
+fieldset {
+    width: 350px;
+    text-align: center;
+    border-color: grey;
+}
+
+@media only screen and (max-width: 37.5em) {
+    #fName {
+        width: 100%;
+        text-align: left;
+        display: block;
+    }
+    #lName {
+        width: 100%;
+        text-align: left;
+        display: block;
+    }
+    #email {
+        width: 100%;
+        text-align: left;
+        display: block;
+    }
+    #comments {
+        width: 100%;
+        display: block;
+        text-align: left;
+        vertical-align: top;
+    }
+    #text {
+        text-align: left;
+        height: 5em;
+        max-width: 100%;
+        width: 100%;
+    }
+    .fName{
+        width:100%;
+    }
+    .lName{
+        width:100%;
+    }
+    .email{
+        width:100%;
+    }
+
+
+    #submit {
+        display: block;
+        margin-left: 0;
+    }
+
+}
+
 footer {
     padding: 15px 5px;
     font-size: 0.8em;
